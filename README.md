@@ -7,11 +7,8 @@ These scripts fetch archive URLs from archive.ph based on a provided URL, with a
 
 Dependencies:
 
-The scripts require the following Python packages:
+requests, beautifulsoup, selenium (for achive_popup.py)
 
-requests
-beautifulsoup4
-selenium
 To install these dependencies, run:
 
 pip install requests beautifulsoup4 selenium
@@ -26,7 +23,7 @@ Download the archive_lookup.py and archive_pop.py files.
 
 Save them to your desired location.
 
-Usage
+Usage:
 
 1. archive_lookup.py
 -------------------------
