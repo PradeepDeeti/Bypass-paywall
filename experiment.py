@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-# URL to scrape
 inputurl = input("enter the url: ")
 
 url = "https://archive.ph/"+inputurl
@@ -16,14 +15,13 @@ headers = {
 response = requests.get(url, headers=headers)
 data=response.text
 
-# Parse the page content using BeautifulSoup
 soup = BeautifulSoup(response.text, "html.parser")
 
-# Find all 'a' tags and extract the 'href' attribute
 
-pattern= "https://archive.ph/[A-z0-9A-Z]{1,10}\""
-matches=re.search(pattern, data)
+pattern = r"https://archive.ph/[A-z0-9A-Z]{1,10}\""
+matches = re.search(pattern, data)
 
-
-print(matches)
-
+if matches:
+    print(matches.group())
+else:
+    print("No matches found.")
