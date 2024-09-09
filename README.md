@@ -1,4 +1,4 @@
-Bypass the paywall by accessing a archived snapshot at archive.ph
+Bypass paywalled content by accessing an archived snapshot at archive.ph
 
 
 This guide provides instructions for two Python scripts: archive_lookup.py and archive_pop.py. 
