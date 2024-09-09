@@ -34,6 +34,8 @@ Command-line Usage:
 
 python archive_lookup.py https://example.com
 
+example output: archive for https://example.com = https://archive.ph/PfOkY
+
 ---------------------------
 
 2. archive_pop.py
