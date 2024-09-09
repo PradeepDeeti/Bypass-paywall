@@ -1,3 +1,9 @@
+note : Some redundant code maybe present at the moment as functionality to read articles on command line itself, 
+is in development.
+
+
+Guide:
+
 Bypass paywalled content by accessing an archived snapshot at archive.ph
 
 
