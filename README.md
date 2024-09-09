@@ -32,7 +32,7 @@ This script fetches an archive URL from archive.ph based on a given URL.
 
 Command-line Usage:
 
-python archive_lookup.py <URL>
+python archive_lookup.py https://example.com
 
 ---------------------------
 
@@ -43,7 +43,7 @@ This script fetches the archive URL from archive.ph and opens it in a new browse
 
 Command-line Usage:
 
-python archive_pop.py <URL>
+python archive_pop.py https://example.com
 
 ----------------------------
 
