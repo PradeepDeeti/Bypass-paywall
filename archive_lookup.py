@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import re
 import sys
 
-if len(sys.argv) != 2:
-    print("Usage: python3 file.py <URL>")
-    sys.exit(1)
+if len(sys.argv) == 2:
+    inputurl = sys.argv[1]
+else:
+    inputurl = input("Enter the URL: ").strip()
 
-inputurl = sys.argv[1]
 
 url = "https://archive.ph/" + inputurl
 
