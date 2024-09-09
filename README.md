@@ -57,3 +57,7 @@ For archive_pop.py, you need:
 
 Google Chrome browser installed on your system.
 ChromeDriver installed and set up. Update the path to chromedriver in the script as needed.
+
+
+note : Some redundant code maybe present at the moment as functionality to read articles on command line itself 
+is in development.
