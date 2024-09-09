@@ -3,7 +3,7 @@ Bypass paywalled content by accessing an archived snapshot at archive.ph
 
 This guide provides instructions for two Python scripts: archive_lookup.py and archive_pop.py. 
 
-These scripts fetch archive URLs from archive.ph based on a provided URL, with archive_pop.py also opening the fetched URL in a new browser window using Selenium. Using either one as per your preference.
+These scripts fetch archive URLs from archive.ph based on a provided URL, with archive_pop.py also opening the fetched URL in a new browser window using Selenium. Use either one as per your preference.
 
 Dependencies:
 
