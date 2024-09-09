@@ -1,4 +1,4 @@
-note : These files will be updated in the future to add functionality to read articles on command line itself. The feature is in development to improve reliability for variety of sources.
+note : Some redundant code is present at the moment as hese files will be updated in the future to add functionality to read articles on command line itself. The feature is in development to improve reliability for variety of sources.
 
 
 Guide:
