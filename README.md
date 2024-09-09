@@ -1,5 +1,4 @@
-note : Some redundant code maybe present at the moment as functionality to read articles on command line itself, 
-is in development.
+note : These files will be updated in the future to add functionality to read articles on command line itself. They feature is in development to improve reliability for variety of sources.
 
 
 Guide:
