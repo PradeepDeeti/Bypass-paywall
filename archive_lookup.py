@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 import re
 import sys
 
@@ -16,8 +15,6 @@ headers = {
 }
 response = requests.get(url, headers=headers)
 data = response.text
-
-soup = BeautifulSoup(response.text, "html.parser")
 
 # \" is important element in the regex to avoid false positives hence keeping it in regex and trimming it later
 pattern = r"https://archive.ph/[A-Za-z0-9]{1,10}\""
