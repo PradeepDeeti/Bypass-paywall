@@ -1,6 +1,7 @@
 note : Some redundant code is present at the moment as hese files will be updated in the future to add functionality to read paywalled articles on command line itself whenever its possible. The feature is in development to improve reliability for variety of sources.
 
 
+
 Guide:
 
 Bypass paywalled content by accessing an archived snapshot at archive.ph
